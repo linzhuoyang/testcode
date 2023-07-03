@@ -3,8 +3,8 @@ package com.example.testcode;
 public class RemoveLetter {
     public static void remove(String str) {
         char[] charArray = str.toCharArray();
-        int[] tempArray = new int[24];
-        int[] orderArray = new int[24];
+        int[] tempArray = new int[26];
+        int[] orderArray = new int[26];
         int order = 0;
         int begin = "a".charAt(0);
         for (int i = 1; i < charArray.length; i++) {
