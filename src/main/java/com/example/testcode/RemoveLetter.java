@@ -18,8 +18,9 @@ public class RemoveLetter {
                 }
             }
         }
-        String result = "";
+
         for (int i = 0; i < orderArray.length; i++) {
+            String result = "";
             char orderEle = (char) orderArray[i];
             if (orderEle > 0) {
                 for (int j = 0; j < charArray.length; j++) {

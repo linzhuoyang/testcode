@@ -19,11 +19,11 @@ public class InsteadLetter {
                 }
             }
         }
-        String result = "";
         String letter = "";
         char replaceLetter = 0;
         for (int i = 0; i < orderArray.length; i++) {
             char orderEle = (char) orderArray[i];
+            String result = "";
             if (orderEle > 0) {
                 for (int j = 1; j < charArray.length; j++) {
                     char front = charArray[j - 1];
