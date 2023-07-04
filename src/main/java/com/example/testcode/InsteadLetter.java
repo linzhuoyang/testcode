@@ -19,11 +19,12 @@ public class InsteadLetter {
                 }
             }
         }
-        String letter = "";
-        char replaceLetter = 0;
+
         for (int i = 0; i < orderArray.length; i++) {
             char orderEle = (char) orderArray[i];
             String result = "";
+            String letter = "";
+            char replaceLetter = 0;
             if (orderEle > 0) {
                 for (int j = 1; j < charArray.length; j++) {
                     char front = charArray[j - 1];
@@ -43,7 +44,7 @@ public class InsteadLetter {
                         result = result + c;
                     }
                 }
-                System.out.println("->" + result + ","+ letter+" is replaced by "+ replaceLetter);
+                System.out.println("->" + result + "," + letter + " is replaced by " + replaceLetter);
                 instead(result);
             }
         }
